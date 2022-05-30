@@ -1,0 +1,54 @@
+﻿/*字体引入*/
+/*@font-face {*/
+    /*font-family: 'hyzyt';*/
+    /*src: url("../font/汉仪综艺体简.ttf");*/
+/*}*/
+
+*{margin: 0px;padding: 0px;text-decoration:none;list-style: none;}
+html, body {
+    width: 3200px;
+    height: 1890px;
+    overflow: hidden;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+    font-family: "微软雅黑";
+
+}
+img{border: none;}
+input{outline:medium;}
+textarea{outline:medium;}
+button{outline:medium;}
+select{outline:medium;border: none}
+li{list-style-type: none}
+a{text-decoration: none;cursor: pointer;color: #333333}
+i{font-style:normal}
+
+.clearBoth:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*滚动条的背景色*/
+.scrollbarCommon{
+    overflow-y: scroll;
+}
+.scrollbarCommon::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #282f3f;
+    overflow: hidden;
+}
+/*滚动条的宽度和圆角*/
+.scrollbarCommon::-webkit-scrollbar
+{
+    width: 0.5px;
+    border-radius: 10px;
+    background-color: #161c29;
+}
+/*滚动条颜色*/
+.scrollbarCommon::-webkit-scrollbar-thumb
+{
+    border-radius: 9px;
+    background-color: #9aadd4;
+}
