@@ -11,7 +11,7 @@
       if(this.$route.path == "/"){
         resizeHome()
       }else {
-        resizeSmall()
+        resizeHome()
       }
       this.$router.beforeEach((to, from, next) => {
         // resizeHome()
@@ -19,7 +19,7 @@
         if(to.name == "home"){
           resizeHome()
         }else{
-          resizeSmall()
+          resizeHome()
         }
         next();
       });
